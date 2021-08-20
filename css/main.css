@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300&display=swap');
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Montserrat Alternates', sans-serif;
+    
+}
+
+.navbar-dark .navbar-brand {
+   /*color change*/
+}
+.navbar .fas  {
+    color: #28a745;
+    
+
+}
+
+#topics-call{
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.contaner {
+    width: 90vw;
+    margin: auto;
+    overflow: hidden;
+}
+.carousel-item img {
+   
+}
+@media (min-width : 800px) {
+    .carousel-item img {
+ object-fit: cover;
+    height: 90vh;
+    }
+}
+@media (
+    max-width : 1050px
+) {
+    .carousel-item img {
+        object-fit: cover;
+           height: 90%;
+           }
+       }
+
+ .info {
+     display: flex;
+     flex-direction: column;
+
+ }      
+ .info .p {
+     box-sizing: border-box;
+     border: 3px solid #007bff;
+     padding: 5px;
+     margin-top: 1rem;
+     flex-basis: 0%;
+     display: none;
+ }
+ @media (max-width : 750px) {
+     .info .p {
+         flex-basis: auto;
+         display: unset;
+     }
+     
+ }
+ .tab-content .tab-pane .row .col-8 {
+     line-height: 2.5;
+ }
+ .tab-content .tab-pane .row .col-8 h2 {
+     color: #007bff;
+     margin-bottom: 3rem;
+ }
+ @media (max-width : 800px) {
+    .tab-content .tab-pane .row {
+        flex-direction: column;
+    }
+    .tab-content .tab-pane .row .col-8 {
+       max-width: 90%;
+       margin: auto; 
+    }
+    .tab-content .tab-pane .row .col-4 {
+        max-width: 100%;
+    }
+
+ }
+ 
+ .jumbotron .container-fluid .lead {
+     width: 90%;
+     margin: auto;
+ }
+ @media (max-width : 800px ) {
+    .jumbotron .container-fluid .lead {
+        font-size: 15px;
+    } 
+    .jumbotron .container-fluid .display-4 {
+        font-size: 25px;
+    }
+ }
+ .contaner .read-next {
+     position: relative;
+     /*color: #007bff;*/
+     
+
+ }
+ .contaner .read-next a {
+     text-decoration: none;
+     color: #000;
+     font-size: 35px;
+     font-weight: 600;
+ }
+ .contaner .read-next::before{
+     content: '';
+     height: 7px;
+     background-color: black;
+     position: absolute;
+     width: 100%;
+    
+
+ }
+ .contaner .read-next:hover a{
+     color: #007bff;
+ }
+ .contaner .read-next:hover::before {
+     background-color: #007bff;
+ }
+ .contaner .hr {
+     height: 3px;
+     width: 100%;
+     background-color: black;
+     margin-bottom: 2rem;
+ }
+ .contaner .rn-cont .row div a {
+    text-decoration: none;
+     color: #000;
+     font-size: 30px;
+     font-weight: 600;
+     line-height: 2;
+ }
+ .contaner .rn-cont .row div p {
+     margin-top:10px ;
+     line-height: 2;
+ }
+ .contaner .rn-cont .row div a:hover {
+     color: #007bff;
+ }
+ @media (max-width : 800px) {
+    .contaner .rn-cont .row {
+        flex-direction: column;
+    }
+    .contaner .rn-cont .row div {
+       max-width: 100%;
+    }
+ }
+ .contaner .latest .row {
+     margin-top: 3rem;
+ }
+ .contaner .latest .row div a {
+    text-decoration: none;
+     color: #000;
+     font-size: 30px;
+     font-weight: 600;
+     line-height: 2;
+ }
+ .contaner .latest .row div p {
+     margin-top:10px ;
+     line-height: 2;
+ }
+ .contaner .latest .row div a:hover {
+     color: #007bff;
+ }
+ .contaner .latest .row div img {
+    
+ }
+ @media (max-width : 800px) {
+    .contaner .latest .row {
+        flex-direction: column;
+    }
+    .contaner .latest .row div {
+       max-width: 100%;
+       margin: auto;
+       
+      
+    }
+    .contaner .latest .row div a {
+        font-size: 20px;
+        text-align: justify;
+    }
+ }
+ .color-dark {
+     color: aliceblue;
+ }
+ .contaner .latest .row .color-change  {
+     color: aliceblue;
+ }
+ .contaner .latest .row .color-change a {
+     color: aliceblue;
+ }
+ .contaner .latest .row .color-change:hover a {
+     color: aliceblue;
+ }
+ #contact-us {
+     color: #28a745;
+     font-weight: bold;
+     font-size: 5rem;
+     text-align: center;
+ }
+#about-us {
+     max-width:100% ; 
+     width: 100%;
+     box-sizing: border-box;
+     padding: 4rem;
+ }
+ .list-group-item {
+     border: none;
+     outline: none;
+     background-color: rgba(0, 0, 0, 0);
+    
+    
+     
+ }
+ .list-group-item a {
+    color: aliceblue;
+    margin-top: 2rem;
+ }
+ .contaner .latest .row .list-group a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 2;
+}
+@media (
+    max-width : 800px
+) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+       <span class="navbar-brand" >Fast Cars</span>
+       <i class="fas fa-ellipsis-v"></i>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#topics-call">Topics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            
+            <!--<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">-->
+          </ul>
+           
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn btn-success mr-2 my-2 my-sm-0" type="sign-in">sign in</button>
+            <button class="btn btn-success mr-2 my-2 my-sm-0" type="sign-up">Sign up</button>
+          </form>
+        </div>
+      </nav>
+      <div class="contaner">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Bugatti Bolide: 310+ mph  (484+ km/h) – estimated</h5>
+                  <p> the Bolide will truly show the world what the W-16 motor is capable of. It’s also light, futuristic (powder blue paint sits sparingly on its exposed carbon-fibre frame), and tiny: The Bolide only stands 39.2 inches off the ground. Its claimed top speed is 310mph or 498 km/h; it can do 0-60mph (0-100km/h) in 2.17 seconds.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Bugatti Chiron Super Sport 300+: 304 mph (483 km/h)</h5>
+                  <p>With an acceleration from 0-100 kilometres per hour (0-60 mph) in 2.4 seconds, this Bugatti certainly has speed and style, all at the same time. </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Hennessey Venom F5: 310 mph (484 km/h)</h5>
+                  <p>Nearly 2,000 horsepower. This gives the Venom F5 precisely what it needs to reach a top speed of 484 kilometres per hour (301 mph). Its acceleration is equally impressive, as it can accelerate from 0-100km/h or 0-60mph in less than two seconds. </p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+           <div class="info">
+               <div class="p col-12">
+                <h5>Bugatti Bolide: 310+ mph  (484+ km/h) – estimated</h5>
+                <p> the Bolide will truly show the world what the W-16 motor is capable of. It’s also light, futuristic (powder blue paint sits sparingly on its exposed carbon-fibre frame), and tiny: The Bolide only stands 39.2 inches off the ground. Its claimed top speed is 310mph or 498 km/h; it can do 0-60mph (0-100km/h) in 2.17 seconds.</p>
+                 
+               </div>
+               <div class="p col-12">
+                
+                <h5>Bugatti Chiron Super Sport 300+: 304 mph (483 km/h)</h5>
+                <p>With an acceleration from 0-100 kilometres per hour (0-60 mph) in 2.4 seconds, this Bugatti certainly has speed and style, all at the same time. </p>
+            
+               </div>
+               <div class="p col-12">
+                <h5>Hennessey Venom F5: 310 mph (484 km/h)</h5>
+                <p>Nearly 2,000 horsepower. This gives the Venom F5 precisely what it needs to reach a top speed of 484 kilometres per hour (301 mph). Its acceleration is equally impressive, as it can accelerate from 0-100km/h or 0-60mph in less than two seconds. </p>
+             
+               </div>
+
+           </div>
+           <ul class="nav nav-pills mb-3 nav-fill mt-5" id="pills-tab"  role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">topic 1</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">topic 2</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">topic 3</a>
+            </li>
+          </ul>
+          <div id="topics-call"></div>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="row">
+                    <div class="col-4">
+                        <img class="col-12" src="./img/fastest-cars-world-2021-thrust-SSC-luxe-digital@2x.jpg" alt="">
+                    </div>
+                    <div class="col-8">
+                        <h2>Thrust SSC: 763 mph (1,228 km/h)</h2>
+                        <p>The Thrust supersonic car is a British jet car developed by Richard Noble, Glynne Bowsher, Ron Ayers, and Jeremy Bliss specifically to break the world speed record. It currently holds the world land speed record with a top speed of 763 mph (1,228 km/h), registered on October 15, 1997. It is also the first land vehicle to officially break the sound barrier.
+
+                            The Thrust SSC is powered by two Rolls-Royce Spey turbofan engines and weighs nearly 10 tons.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"> 
+                <div class="row">
+                <div class="col-4">
+                    <img class="col-12" src="./img/bloodhound-lsr-luxe-digital@2x.jpg" alt="">
+                </div>
+                <div class="col-8">
+                    <h2>Bloodhound LSR: 1,000 mph (1,609 km/h) – target</h2>
+                    <p>20 years after its predecessor, the Bloodhound Land Speed Record (LSR) announced its intention to break the world land speed record with a top speed target of 1,000 mph / 1,609 km/h. The car has been under development since 2008 and is powered by a combination of a jet engine and a rocket engine.
+
+                        While still in development, the car already achieved a top speed of 628 mph (1,011 km/h) on 16 November, 2019 in South Africa. The British engineering team behind the project plans to break the world speed record in 2021.</p>
+                </div>
+            </div></div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"> <div class="row">
+                <div class="col-4">
+                    <img class="col-12" src="./img/-Devel-Sixteen-luxe-digital@2x.jpg" alt="">
+                </div>
+                <div class="col-8">
+                    <h2>Devel Sixteen: 347 mph (550km/h)*</h2>
+                    <p>We’ve come to it: The fastest car of 2021, an almost unheard-of amount of power and speed from the Devel Sixteen – a car that seeks to smash all of the current records it faces. With a claimed top speed of 347mph (or 550+km/h), the Devel Sixteen stares down the next speed standard: 350 miles per hour. 
+
+                        First debuted years ago, the Devel Sixteen boast stats that have had the automotive world whispering, mystified, as we wait for production: It has an incredible 5,007 horsepower, an 81mm Quad Turbo 12.3L V16 engine, and a general ‘inquire for price’, intriguing aura constantly surrounding it. This car is certainly one to keep an eye out for in 2021, as what we do know about it signals that it’ll be the car to beat if its stats are confirmed.
+                        
+                        *The Devel Sixteen remains in development at the time of publishing this ranking. The brand’s claimed top speed hasn’t been confirmed yet. We will update this article as soon as more information is available.</p>
+                </div>
+            </div></div>
+          </div>
+          <div class="jumbotron jumbotron-fluid mt-5">
+            <div class="container-fluid ">
+              <h1 class="display-4">What is the #1 fastest car in the world in 2021?</h1>
+              <p class="lead">The #1 fastest car in the world is currently the Devel Sixteen. It travels at a blistering 347 miles per hour, cementing its status as an incredibly-performing, extremely speedy supercar.</p>
+            </div>
+            <div class="container-fluid mt-4">
+              <h1 class="display-4">Which is the fastest commercially produced car in the world?</h1>
+              <p class="lead">The SSC Tuatara is the fastest production car in the world. It recently beat out the Koenigsegg Agara RS, which held the title in 2017. The SSC Tuatara has a top speed of 316mph.</p>
+            </div>
+            <div class="container-fluid mt-4">
+              <h1 class="display-4">What are the 5 fastest cars in the world?</h1>
+              <p class="lead">The 5 fastest cars in the world are the Devel Sixteen, the SSC Tuatara, the Koenigsegg Jesko Absolut, the Bugatti Bolide, and the Hennessey Venom F5. It’s an elite group of hypercars that represent some of the most creative innovation in the worldwide automotive industry.</p>
+            </div>
+            <div class="container-fluid mt-4">
+              <h1 class="display-4">What cars are getting redesigned for 2021?</h1>
+              <p class="lead">The cars getting redesigned for 2021 include the Bugatti Chiron, the SSC Tuatara, and the Koenigsegg Jesko Absolut. The SSC Tuatara’s 2021 redesign is rumoured to be a coupe.</p>
+            </div>
+            <div class="container-fluid mt-4">
+              <h1 class="display-4">How fast is the Koenigsegg jesko Absolut?</h1>
+              <p class="lead">The Koenigsegg Jesko absolute is able to attain a top speed of an estimated 330mph. This puts the Jesko firmly in the running for the fastest car of 2021, even if it doesn’t quite clinch that winning speed.</p>
+            </div>
+          </div>
+          <div class="read-next">
+              <a href="#">READ NEXT</a>
+          </div>
+          <div class="hr"></div>
+          <div class="rn-cont">
+          <div class="row mt-4">
+            <div class="col-6">
+                <img class="col-12" src="./img/best-electric-cars-2021-luxury-luxe-digital@2x-350x175.jpg" alt="">
+            </div>
+            <div class="col-6">
+                <a href="#">Drive Into The Future: The Best Luxury Electric Cars In The World
+                </a>
+                <p>Sustainability made stylish.</p>
+
+            </div>
+          </div>
+          <div class="row mt-4">
+              <div class="col-4">
+                  <div class="img">
+                      <img class="col-12" src="./img/best-luxury-suv-2021-luxe-digital@2x-350x175.jpg" alt="">
+                  </div>
+                  <div class="contentt mt-2">
+                      <a href="#">The Best Luxury SUVs Of 2021: Premium Driving Experience</a>
+                      <p>Sustainability made stylish.</p>
+                    </div>
+              </div>
+              <div class="col-4">
+                  <div class="img">
+                      <img class="col-12" src="./img/best-electric-cars-luxury-luxe-digital.jpg" alt="">
+                  </div>
+                  <div class="contentt mt-2">
+                      <a href="#">EVs that Excite: The Best Electric Cars Of 2020
+                    </a>
+                    <p>Sustainability made stylish.</p>
+                  </div>
+              </div>
+              <div class="col-4">
+                  <div class="img">
+                      <img class="col-12" src="./img/best-electric-cars-2021-luxury-luxe-digital@2x-350x175.jpg" alt="">
+                  </div>
+                  <div class="contentt mt-2">
+                      <a href="#">Drive Into The Future: The Best Luxury Electric Cars In The World</a>
+                      <p>Sustainability made stylish.</p>
+                  </div>
+              </div>
+              
+          </div>
+        </div>
+        <div class="read-next">
+            <a href="#">LATEST</a>
+        </div>
+        <div class="hr"></div>
+          <div class="latest ">
+            <class class="row ">
+                <div class="img col-6">
+                    <img class="col-10" src="./img/pagani-huayra-roadster-most-expensive-cars-luxe-digital.jpg" alt="">
+                </div>
+                <div class="col-6">
+                    <a href="#">15 Luxe Supercars for Head-Turning Highway Presence</a>
+                    <p>Hot-wheels for grown-ups.</p>
+                </div>
+              <div class="row">
+
+                <div class="img col-6 ">
+                    <img class="col-10"  src="./img/verve-rally-supercars-montecarlo-monaco-casino-luxe-digital.jpg" alt="">
+                </div>
+                <div class="col-6">
+                    <a href="#">Supercars And Luxury Travel Experience With Verve Rally</a>
+                    <p>Supercars holidays across Europe.</p>
+                </div>
+            <div class="row ">
+                <div class="img col-6">
+                    <img class="col-10" src="./img/zoute-grand-prix-belgium-luxe-digital-luxury-cars.jpg" alt="">
+                </div>
+                <div class="col-6">
+                    <a href="#">Zoute Grand Prix Seals Pole Position For Car Lovers On Its 10th Anniversary</a>
+                    <p>Luxury cars with a glamorous seaside backdrop.</p>
+                </div>
+            <div class="row ">
+                <div class="img col-6">
+                    <img class="col-10" src="./img/fastest-supercars-luxe-digital.jpg" alt="">
+                </div>
+                <div class="col-6">
+                    <a href="#">The Fastest Cars of 2020</a>
+                    <p>Don’t blink—you might just miss them.
+                    </p>
+                </div>
+
+               </div>
+
+            
+        
+        </div>
+      </div>
+        <div class="contaner mt-4">
+
+          <div class="jumbotron bg-primary color-change">
+            <h1 class="display-4">Hello, world!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <a class="btn btn-success btn-lg" href="#" role="button">JOIN US</a>
+          </div>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          <h3 id="contact-us">CONTACT US</h3>
+          <div class="mt-5">
+          <p class="row justify-content-around">
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">G-mail</button>          
+             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">dial-phone</button>
+             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">see both </button>
+          </p>
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body">
+                 G-mail : fastcarsworld@gmail.com 
+
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="card card-body">
+                  the dial-phone : +022758*******
+          
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div> 
+    
+  
+
+
+</class>
+
+
+<div class="container-fluid col-12 bg-primary mt-8 " id="about-us">
+<div class="row col-12 jusifiy-content-around">
+  <div class="col-3">
+    <p class="lead ">
+      The perfect mix of modern luxury business and lifestyle stories. Distilled, not diluted.
+    </p>
+  </div>
+  <div class="col-3">
+    <div class="list-group">
+     
+      <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+      <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+      <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+      <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+      <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+      </div>
+  </div>
+  <div class="col-3">
+    <div class="list-group lead">
+      
+      <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+      <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+      <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+      <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+      <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+        </div>
+  </div>
+  <div class="col-3">
+    <div class="list-group">
+      
+      <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+      <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+      <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+      <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+      <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+       </div>
+  </div>
+</div>
+</div>
+
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
